@@ -30,13 +30,13 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
-		
+
 		<!-- turbine和hystrix的starter留一个就行 -->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-hystrix</artifactId>
+			<artifactId>spring-cloud-starter-turbine</artifactId>
 		</dependency>
-		
+
 		<!-- 仪表盘必备 -->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
